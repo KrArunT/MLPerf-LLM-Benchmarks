@@ -1,5 +1,4 @@
 # MLPerf Reference Implementation for llama2-7b Benchmark
-
 **Basic implementation for llama2-7b. Few noteworthy items:**
 
 + Streamer for communicating with loadgen has quite some overhead. This is only meant to provide functional implementation
@@ -11,8 +10,9 @@ Please see the [new docs site](https://docs.mlcommons.org/inference/benchmarks/l
 
  
 ## Prepare environment
-
 For a CPU-only run:
+Download and install anaconda: https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh 
+source anaconda3/bin/activate
 
 ```
 conda create -n llama2-7b python=3.9
