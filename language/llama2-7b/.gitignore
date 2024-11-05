@@ -1,0 +1,8 @@
+/open_orca/*.gz
+/open_orca/*.json
+/run_outputs/*.pkl
+/Anaconda_download/*.sh
+*.pyc
+*.swo
+*.swp
+
