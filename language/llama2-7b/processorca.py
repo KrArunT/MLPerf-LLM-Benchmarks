@@ -277,6 +277,9 @@ class OpenOrcaDatasetGenerator:
 
         # Calibration dataset
         calib_ds = sampled_df.sample(
+            n=self.calibration_subset_size, random_state=calib_rng_seed, replace=true
+        )
+        # calib_ds = sampled_df.sample(
             n=self.calibration_subset_size, random_state=calib_rng_seed
         )
         calib_ds = calib_ds.reset_index(drop=True)
